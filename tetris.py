@@ -92,7 +92,7 @@ class Tetris(object):
                     self.active_block.move(-constants.BWIDTH,0)
                 if ev.key == pygame.K_RIGHT:
                     self.active_block.move(constants.BWIDTH,0)
-                if ev.key == pygame.K_SPACE:
+                if ev.key == pygame.K_w:
                     self.active_block.rotate()
                 if ev.key == pygame.K_p:
                     self.pause()
